@@ -21,7 +21,7 @@ function Header({ cartItems }) {
         <div className="Header">
             <Link to='/'>
                 <div className="Header-logo">
-                    <img src={process.env.PUBLIC_URL + '/logo.png'}/>
+                    <img src={'https://i.pinimg.com/originals/75/fa/9b/75fa9b17f632646e5ae7fae3cf837761.jpg'}/>
                 </div>
             </Link>
 
@@ -42,7 +42,7 @@ function Header({ cartItems }) {
 
             <div className="Header-navItems">
                 <div className="Header-option">
-                    <span className="Header-optionLineOne">Hello, Nazariy</span>
+                    <span className="Header-optionLineOne">Hello, customer</span>
                     <span className="Header-optionLineTwo">Account & Lists</span>
                 </div>
 

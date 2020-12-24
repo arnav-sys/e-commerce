@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './Product.css'
 import { db } from './firebase'
 
-function Product({id, title, price, rating, image }) {
+function Product({id, title, price, rating, image,name }) {
 
     console.log(price)
 

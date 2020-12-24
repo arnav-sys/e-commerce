@@ -1,0 +1,26 @@
+div {
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+h4 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+div button {
+  z-index: 1;
+  background: linear-gradient(to bottom, #184a73, #10075f);
+  cursor: pointer;
+  border-radius: 2px;
+  border: 2px solid #a88734;
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}

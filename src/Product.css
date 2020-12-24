@@ -1,42 +1,53 @@
 .Product {
-    background-color: white;
-    max-height: 400px;
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 20px;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center;
+  background-color: white;
+  max-height: 400px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button:hover {
+  color: #184a73;
+  border: #184a73 solid 1px;
+  background: #fff;
+}
+
+.Product:hover {
+  transform: scale(1.04);
 }
 
 .Product-info {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .Product-price {
-    font-weight: 500;
-    margin-top: 3px;
+  font-weight: 500;
+  margin-top: 3px;
 }
 
 .Product button {
-    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
-    cursor: pointer;
-    border-radius: 2px;
-    border: 2px solid #a88734;
-    width: 100px;
-    height: 29px;
+  background: linear-gradient(to bottom, #184a73, #1e0fec);
+  cursor: pointer;
+  border-radius: 2px;
+  border: 2px solid #184a73;
+  width: 100px;
+  height: 30px;
+  padding-top: 15px;
 }
 
 .Product img {
-    object-fit: contain;
-    max-height: 200px;
-    min-width: 100px;
+  object-fit: contain;
+  max-height: 200px;
+  min-width: 100px;
 }
 
 .Product-rating {
-    display: flex;
+  display: flex;
 }

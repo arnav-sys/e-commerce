@@ -1,0 +1,54 @@
+.payment form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.payment {
+  align-items: center;
+}
+
+.Payment input label {
+  padding: 25px;
+}
+
+.payment button {
+  background: linear-gradient(to bottom, #184a73, #181818);
+  cursor: pointer;
+  border-radius: 2px;
+  border: 2px solid #184a73;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.payment label {
+  align-items: center;
+  text-align: center;
+}
+
+.Payment input {
+  width: 280px;
+  align-items: center;
+  text-align: center;
+}
+
+.address input {
+  width: 450px;
+}
+
+.payment-top {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.payment-bottom {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}

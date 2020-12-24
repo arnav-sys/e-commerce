@@ -3,6 +3,7 @@ import './Home.css'
 import Product from './Product'
 import { db } from './firebase'
 
+
 function Home() {
     const [products, setProducts] = useState([]);
 
@@ -19,7 +20,7 @@ function Home() {
     return (
         <div className="Home">
             <div className="Home-container">
-                <div className="Home-banner" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/banner.jpg)`}}>
+                <div className="Home-banner" >
                 </div>
                 <div className="Home-content">
                     <div className="Home-row">

@@ -1,5 +1,6 @@
 import React from 'react'
 import NumberFormat from 'react-number-format';
+import { Link } from 'react-router-dom';
 import './CartTotal.css'
 
 function CartTotal({ items }) {
@@ -21,7 +22,7 @@ function CartTotal({ items }) {
                 </span>
             </h3>
             <button>
-                Proceed to checkout
+                <Link to="/payment">Proceed to checkout</Link>
             </button>
         </div>
     )
